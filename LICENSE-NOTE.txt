@@ -1,0 +1,3 @@
+HydroBuddy original: https://github.com/danielfppps/hydrobuddy
+Original project licensing should be checked before incorporating original source code.
+This v1 mobile implementation is newly written for Android and is not presented as the official HydroBuddy application.
