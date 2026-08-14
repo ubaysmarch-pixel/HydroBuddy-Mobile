@@ -1,7 +1,6 @@
 name: Build HydroBuddy Mobile APK
 on:
   workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,8 +10,7 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      - name: Build with Gradle
-        run: ./gradlew assembleDebug
+      - run: ./gradlew assembleDebug
       - uses: actions/upload-artifact@v4
         with:
           name: HydroBuddy-Mobile-Debug-APK
